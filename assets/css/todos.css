@@ -1,0 +1,123 @@
+/* body {
+    background: purple;
+} */
+
+body{
+    font-family: Roboto;
+    background: #4568DC;
+    /* fallback for old browsers */
+
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1{
+    background: #2980b9;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: normal;
+
+}
+
+input {
+    font-size: 18px;
+    color: #2980b9;
+    background: #f7f7f7;
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    opacity: inherit;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 3px solid rgba(0, 0, 0, 0);
+}
+
+input:focus {
+    background: #fff;
+    border: 3px solid #2980b9;
+    outline: none;
+}
+
+span {
+    background: red;
+    margin-right: 20px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    width: 0px;
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li:hover span {
+    width: 40px;
+    opacity: 1.0;
+}
+
+li {
+    background: white;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+    /* padding-left: 10px; */
+}
+
+li:nth-child(2n) {
+    background: #f7f7f7;
+}
+
+
+#container{
+    background: #f7f7f7;
+    margin: 100px auto;
+    width: 360px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    
+
+}
+
+.fa-edit{
+    float: right;
+    /* display: block; */
+}
+
+.fa-edit:hover edit{
+    background: blue;
+    color: #f7f7f7;
+}
+
+/*.fa-trash-alt{
+    height: 40px;
+    width: 40px; 
+    margin-right: 20px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    background: red;
+    margin: auto;
+    padding: 12px;
+    width: 0;
+    display: none;
+}*/
+.completed{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.show{
+    display: block;
+}
